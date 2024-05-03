@@ -1,0 +1,43 @@
+* {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+#firstPart {
+    width: 70%;
+    height: 100vh;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: double;
+    margin-right: 5px;
+}
+
+#information {
+    width: 30%;
+    height: 100vh;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: double;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 15px;
+
+}
